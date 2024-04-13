@@ -76,8 +76,8 @@ ol {
 }
 
 .result__video {
-  width: 711px;
-  height: 386px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -89,7 +89,7 @@ ol {
 
 .search-form__fieldset-title {
   margin-bottom: 5px;
-  font-family: "Fira Sans Condensed";
+  font-family: "Fira Sans Condensed", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -98,7 +98,7 @@ ol {
 }
 
 .search-form__label {
-  font-family: "Fira Sans Condensed";
+  font-family: "Fira Sans Condensed", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -108,14 +108,22 @@ ol {
   color: rgba(255, 255, 255, 0.7);
 }
 
-.search-form__label:hover {
+.search-form__label-text:hover {
   cursor: pointer;
   text-decoration: underline;
 }
 
+.search-form__label:focus {
+  outline: none;
+}
+
+.search-form__label:focus-visible {
+  border: 1px;
+  border-color: #ffffff;
+}
+
 .search-form__fieldset {
   border: none;
-
   align-self: flex-end;
 }
 
@@ -124,7 +132,6 @@ ol {
   height: 27px;
   cursor: pointer;
   appearance: none;
-  font-family: "Fira Sans Condensed";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -208,7 +215,7 @@ ol {
 
 .content__video-card {
   display: flex;
-  flex-direction: raw;
+  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -237,7 +244,7 @@ ol {
 
 .content__video-card-description {
   margin-top: 6px;
-  font-family: "Fira Sans Condensed";
+  font-family: "Fira Sans Condensed", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -254,16 +261,16 @@ ol {
   background-color: #545050;
 }
 
-.content__video-card:hover {
+.content__card-link:hover {
   cursor: pointer;
   text-decoration: underline;
 }
 
-.content__video-card:focus {
+.content__card-link:focus {
   outline: none;
 }
 
-.content__video-card:focus-visible {
+.content__card-link:focus-visible {
   border: 1px;
   border-color: #ffffff;
 }
@@ -272,7 +279,7 @@ ol {
 .button {
   margin: 2px;
   cursor: pointer;
-  font-family: "Fira Sans Condensed";
+  font-family: "Fira Sans Condensed", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -280,6 +287,8 @@ ol {
   /* identical to box height */
   text-align: center;
   color: #ffffff;
+  border: 1px solid white;
+  background-color: #1b1919;
 }
 
 .button:hover {
@@ -292,17 +301,22 @@ ol {
   text-decoration: none;
 }
 
+.button:focus {
+  outline: none;
+}
+
+.button:focus-visible {
+  border: 1px;
+  border-color: #ffffff;
+}
+
 .search-form__submit-button {
   width: 194px;
   height: 34px;
-  border: 1px solid white;
-  background-color: #1b1919;
   align-self: flex-end;
 }
 
 .more-button {
   width: 399px;
   height: 34px;
-  border: 1px solid white;
-  background-color: #1b1919;
 }
