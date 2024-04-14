@@ -118,8 +118,7 @@ ol {
 }
 
 .search-form__label:focus-visible {
-  border: 1px;
-  border-color: #ffffff;
+  border: 2px solid #ffffff;
 }
 
 .search-form__fieldset {
@@ -182,7 +181,7 @@ ol {
 }
 
 .title {
-  font-family: "Oswald";
+  font-family: "Oswald", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 75px;
@@ -193,7 +192,7 @@ ol {
 }
 
 .content__accent {
-  font-family: "Oswald";
+  font-family: "Oswald", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 75px;
@@ -232,7 +231,7 @@ ol {
 }
 
 .content__video-card-title {
-  font-family: "Oswald";
+  font-family: "Oswald", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -271,8 +270,7 @@ ol {
 }
 
 .content__card-link:focus-visible {
-  border: 1px;
-  border-color: #ffffff;
+  border: 2px solid #ffffff;
 }
 
 /* КНОПКИ */
@@ -306,8 +304,7 @@ ol {
 }
 
 .button:focus-visible {
-  border: 1px;
-  border-color: #ffffff;
+  border: 2px solid #ffffff;
 }
 
 .search-form__submit-button {
