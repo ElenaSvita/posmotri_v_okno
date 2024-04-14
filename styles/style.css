@@ -118,7 +118,8 @@ ol {
 }
 
 .search-form__label:focus-visible {
-  border: 2px solid #ffffff;
+  outline: 1px solid #ffffff;
+  outline-offset: 1px;
 }
 
 .search-form__fieldset {
@@ -270,7 +271,7 @@ ol {
 }
 
 .content__card-link:focus-visible {
-  border: 2px solid #ffffff;
+  outline: 1px solid #ffffff;
 }
 
 /* КНОПКИ */
@@ -304,7 +305,8 @@ ol {
 }
 
 .button:focus-visible {
-  border: 2px solid #ffffff;
+  outline: 1px solid #ffffff;
+  outline-offset: 1px;
 }
 
 .search-form__submit-button {
