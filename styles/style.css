@@ -113,14 +113,12 @@ ol {
   text-decoration: underline;
 }
 
-.search-form__label:focus {
-  outline: none;
-}
-
-.search-form__label:focus-visible {
+.search-form__label:has(:focus-visible) {
   outline: 1px solid #ffffff;
   outline-offset: 1px;
 }
+
+
 
 .search-form__fieldset {
   border: none;
